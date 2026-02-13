@@ -18,12 +18,6 @@
         <p class="text-love-deep/80">{{ memory.desc }}</p>
       </div>
     </div>
-
-    <div class="pt-10">
-      <a href="#ask" class="text-love-deep font-bold animate-bounce block">
-        Ready for the big question? 👇
-      </a>
-    </div>
   </section>
 </template>
 

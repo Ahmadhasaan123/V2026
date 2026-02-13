@@ -68,8 +68,10 @@ const accept = () => {
 };
 
 const moveNoButton = () => {
-  const x = Math.random() * (window.innerWidth - 150);
-  const y = Math.random() * (window.innerHeight - 100);
+  // Reset clicks or just remove logic
+  const x = Math.max(20, Math.random() * (window.innerWidth - 180));
+  const y = Math.max(20, Math.random() * (window.innerHeight - 100));
+
   noButtonStyle.value = {
     position: "absolute",
     left: `${x}px`,

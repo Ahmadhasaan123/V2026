@@ -56,8 +56,10 @@
         >
           <button
             @click="catchHeart"
+            @touchstart.passive="moveHeart"
+            @mousedown="moveHeart"
             :style="heartPos"
-            class="text-5xl absolute transition-all duration-300 cursor-pointer hover:scale-125"
+            class="text-5xl absolute transition-all duration-200 cursor-pointer hover:scale-125"
           >
             ❤️
           </button>
